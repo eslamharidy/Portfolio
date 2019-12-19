@@ -1,7 +1,53 @@
-.navbar {
-    max-width: 100vh;
+.Navbar {
+    width: 30vh;
     height: 100%;
-    margin-top: 9rem;
-    margin-left: 3rem;
+    justify-items: center;
+    margin-left: -5.8rem;
+    margin-top: 10vh;
+}
+
+#email{
+    margin-left: 2.5rem;
+}
+#Linkedin{
+    margin-left: 0.8rem;
+}
+img{
+    margin-left: 1.8rem;
+    size: 1.3rem;
+}
+
+
+.email:hover{
+  color: rgb(255, 75, 75);
+  display: inline-block;
+  
+}
+
+.Github:hover{
+    color: rgb(102, 101, 101);
+    display: inline-block;
+    
+}
+
+.LinkedIn:hover{
+    color: rgb(61, 87, 173);
+    display: inline-block;
+   
+}
+
+.git:hover{
+    margin-left: 5.2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.linked:hover{
+    margin-left: 5.2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.mail:hover{
+    margin-left: 5.2rem;
+    transition: all 0.5s ease-in-out;
 }
 
