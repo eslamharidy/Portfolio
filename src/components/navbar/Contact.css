@@ -4,6 +4,7 @@
     justify-items: center;
     margin-left: -5.8rem;
     margin-top: 10vh;
+    position: absolute;
 }
 
 #email{
@@ -17,23 +18,19 @@ img{
     size: 1.3rem;
 }
 
-
 .email:hover{
   color: rgb(255, 75, 75);
   display: inline-block;
-  
 }
 
 .Github:hover{
-    color: rgb(102, 101, 101);
+    color: rgb(252, 249, 249);
     display: inline-block;
-    
 }
 
 .LinkedIn:hover{
     color: rgb(61, 87, 173);
     display: inline-block;
-   
 }
 
 .git:hover{
