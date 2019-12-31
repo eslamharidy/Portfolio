@@ -12,7 +12,7 @@ export default class Contact extends Component {
         return <><div className="Navbar">
         <Navbar bg="transperant" className="git">
           <Navbar.Brand href="https://github.com/eslamharidy">
-          <span className="Github">Github</span>
+          <span className="Github link">Github</span>
           <img
               src={github}
               width="30"
@@ -24,7 +24,7 @@ export default class Contact extends Component {
         <br />
         <Navbar bg="transperant" className="linked">
           <Navbar.Brand href="https://www.linkedin.com/in/eslam-haridy-0b14316a/">
-           <span className="LinkedIn">LinkedIn</span>
+           <span className="LinkedIn link">LinkedIn</span>
             <img id="Linkedin"
               src={LinkedIn}
               width="30"
@@ -37,7 +37,7 @@ export default class Contact extends Component {
         <br />
         <Navbar bg="transperant"  variant="light" className="mail">
           <Navbar.Brand href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=eslamissy@hotmail.com">
-          <span className="email">Email</span>
+          <span className="email link">Email</span>
            <img id="email"
               alt="email"
               src={email}

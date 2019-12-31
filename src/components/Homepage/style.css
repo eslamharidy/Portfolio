@@ -2,4 +2,11 @@
     z-index: -1;
     background-color: rgb(76, 78, 104);
     margin: 0;
+    padding: 0%;
+}
+
+@media (min-width: 850px) {
+    .Particles{
+        height: 100vh;
+    }
 }

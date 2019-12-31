@@ -1,3 +1,4 @@
+
 .Navbar {
     width: 30vh;
     height: 100%;
@@ -5,6 +6,10 @@
     margin-left: -5.8rem;
     margin-top: 10vh;
     position: absolute;
+}
+
+.link{
+    font-size: 1vh;
 }
 
 #email{
@@ -29,8 +34,9 @@ img{
 }
 
 .LinkedIn:hover{
-    color: rgb(61, 87, 173);
+    color: rgb(241, 242, 247);
     display: inline-block;
+    
 }
 
 .git:hover{
@@ -46,5 +52,43 @@ img{
 .mail:hover{
     margin-left: 5.2rem;
     transition: all 0.5s ease-in-out;
+    transition: all 0.5s;
 }
 
+
+
+                               /* styling for Desktop screen */
+
+@media (min-width: 850px) {
+    .Navbar {
+        width: 30vh;
+        height: 30vh;
+        margin-top: 25vh;
+        margin-left: -12vh;
+        
+}
+.link{
+    font-size: 3vh;
+    display: inline-block;
+}
+
+#email{
+    margin-left: 6vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+#Linkedin{
+    margin-left: 2.2vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+img{
+    margin-left: 4.5vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+.git:hover{
+    margin-left: 12vh;
+    transition: all 0.5s ease-in-out;
+}
+}
