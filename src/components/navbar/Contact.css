@@ -64,7 +64,7 @@ img{
         width: 30vh;
         height: 30vh;
         margin-top: 25vh;
-        margin-left: -12vh;
+        margin-left: -12.9vh;
         
 }
 .link{
@@ -87,8 +87,18 @@ img{
     margin-bottom: 10px;
     size: 4vh;
 }
+
 .git:hover{
     margin-left: 12vh;
     transition: all 0.5s ease-in-out;
 }
+.LinkedIn:hover{
+    margin-left: 5.7vh;
+    transition: all 0.5s ease-in-out;
+}
+.mail:hover{
+    margin-left: 12vh;
+    transition: all 0.5s ease-in-out;
+}
+
 }
