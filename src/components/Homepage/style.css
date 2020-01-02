@@ -1,8 +1,8 @@
 .Particles{
     z-index: -1;
-    background: #FFA17F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #00223E, rgb(116, 56, 35));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #00223E, rgb(134, 64, 39)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(40, 73, 143);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00223E, rgb(40, 73, 143));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgb(0, 21, 37), rgb(40, 73, 143)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     margin: 0;
     padding: 0%;
@@ -12,4 +12,76 @@
     .Particles{
         height: 100vh;
     }
+    .container{
+        z-index: +1;
+        color: white;
+        font-size: 4vh;
+        background: transparent;
+        position: absolute;
+        font-weight: bolder;
+        font-family: 'Quicksand', sans-serif;
+        letter-spacing: 3px;
+        -webkit-transition: 0.1s linear all;
+        -o-transition: 0.1s linear all;
+        transition: 0.1s linear all;
+        line-height: 90px;
+        text-align: center;
+        width: 70%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .myname{
+        color: rgb(212, 59, 59);
+        -webkit-animation: colorRend 2s linear 1s infinite forwards;
+        animation: colorRend 2s linear 1s infinite forwards;
+        
+    }
+    @-webkit-keyframes colorRend {
+        0% {
+          color: #e95555;
+        }
+        25% {
+          color: #ec8585;
+        }
+        50% {
+          color: #ebb3b3;
+        }
+        75% {
+          color: #ec8585;
+        }
+        100% {
+          color: #e95555;
+        }
+      }
+      @keyframes colorRend {
+        0% {
+          color: #e95555;
+        }
+        25% {
+          color: #ec8585;
+        }
+        50% {
+          color: #ebb3b3;
+        }
+        75% {
+          color: #ec8585;
+        }
+        100% {
+          color: #e95555;
+        }
+      }
 }
+

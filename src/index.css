@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import './style.css';
+import Welcome from './Welcome';
 // import Contact from '../navbar/Contact';
 
 export default class Homepage extends Component {
@@ -100,7 +101,7 @@ export default class Homepage extends Component {
                       "size": 8.120772123013452,
                       "duration": 0.3248308849205381,
                       "opacity": 0.5928163649799819,
-                      "speed": 3
+                      "speed": 4
                     },
                     "repulse": {
                       "distance": 200,
@@ -115,6 +116,8 @@ export default class Homepage extends Component {
                   }
                 },
                 "retina_detect": true
-              }}></Particles>
+              }}> 
+              </Particles>
+              
     }
 }
