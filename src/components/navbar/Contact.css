@@ -103,3 +103,49 @@ img{
 }
 
 }
+
+
+
+@media (max-width: 850px) {
+    .Navbar {
+        width: 10vh;
+        height: 30vh;
+        margin-top: 25vh;
+        margin-left: -14.5vh;
+        
+}
+.link{
+    font-size: 3vh;
+    display: inline-block;
+}
+
+#email{
+    margin-left: 6vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+#Linkedin{
+    margin-left: 2.2vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+img{
+    margin-left: 4.5vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+
+.git:hover{
+    margin-left: 12vh;
+    transition: all 0.5s ease-in-out;
+}
+.LinkedIn:hover{
+    margin-left: 5.7vh;
+    transition: all 0.5s ease-in-out;
+}
+.mail:hover{
+    margin-left: 12vh;
+    transition: all 0.5s ease-in-out;
+}
+
+}

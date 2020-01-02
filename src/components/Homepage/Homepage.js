@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import './style.css';
-// import Contact from '../navbar/Contact';
+
 
 export default class Homepage extends Component {
     render() {
