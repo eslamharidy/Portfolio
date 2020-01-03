@@ -132,6 +132,7 @@
   margin-top: 6vh;
   padding-left: 1vh;
   padding-right: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #aboutme {
@@ -163,6 +164,7 @@
 
 button{
   background: transparent;
+  font-family: 'Quicksand', sans-serif;
   border: none;
   color: white;
   text-shadow: rgba(238, 238, 238, 0.5);
