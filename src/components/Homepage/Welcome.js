@@ -3,6 +3,7 @@ import SplitText from 'react-pose-text';
 import './style.css';
 
 
+
 const charPoses = {
     exit: { opacity: 0, y: 20 },
     enter: {
@@ -27,7 +28,13 @@ export default class Welcome extends Component {
                 <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
                     Full-Stack Developer
       </SplitText>
-            </div>
+      <div className=" box">
+      <button className="textbox-label " id='aboutme'>About me </button>
+      <button className="textbox-label" id='mystack'>My Stack </button>
+      <button className="textbox-label" id='projects'>My Projects </button>
+     </div>
+</div>
+            
         )
     }
 }

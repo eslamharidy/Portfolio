@@ -99,8 +99,7 @@ export default class Homepage extends Component {
                       "distance": 401.97822008916586,
                       "size": 8.120772123013452,
                       "duration": 0.3248308849205381,
-                      "opacity": 0.5928163649799819,
-                      "speed": 4
+                      "opacity": 0.5928163649799819
                     },
                     "repulse": {
                       "distance": 200,
