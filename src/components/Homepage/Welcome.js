@@ -4,6 +4,7 @@ import './style.css';
 
 
 
+
 const charPoses = {
     exit: { opacity: 0, y: 20 },
     enter: {
