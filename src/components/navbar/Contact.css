@@ -65,7 +65,7 @@ img{
         width: 30vh;
         height: 30vh;
         margin-top: 25vh;
-        margin-left: -14.9vh;
+        margin-left: -13.9vh;
         
 }
 .link{
@@ -94,7 +94,7 @@ img{
     transition: all 0.5s ease-in-out;
 }
 .LinkedIn:hover{
-    margin-left: 5.7vh;
+    margin-left: 0vh;
     transition: all 0.5s ease-in-out;
 }
 .mail:hover{
