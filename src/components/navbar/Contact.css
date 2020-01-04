@@ -104,7 +104,20 @@ img{
 
 }
 
-
+@media (min-width: 1400px) {
+    .LinkedIn:hover{
+        margin-left: 4vh;
+        transition: all 0.5s ease-in-out;
+    }
+    .git:hover{
+        margin-left: 13vh;
+        transition: all 0.5s ease-in-out;
+    }
+    .mail:hover{
+        margin-left: 13vh;
+        transition: all 0.5s ease-in-out;
+    }
+}
 
 @media (max-width: 850px) {
     .Navbar {
