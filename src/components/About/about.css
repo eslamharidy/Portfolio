@@ -1,0 +1,47 @@
+
+.page{
+    position: relative;
+    height: 100vh;
+    width: 200vh;
+    z-index: -1;
+}
+
+.animated-section{
+  position: relative;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  height: 100vh;
+  width: 25vh;
+  left: 0vh;
+  z-index: 0;
+  float: left;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.iframeWrapper {
+  padding-right: 10vh;
+  position: relative;
+  height: 40vh;
+  width: 42vh;
+  float: right;
+  padding-bottom: 100%;
+  z-index: +1;
+}
+
+.iframeWrapper .iframer {
+  position: absolute;
+  top: 2vh;
+  left: 5%;
+  width: 100%;
+  height: 30%;
+  border-radius: 10px;
+  z-index: +1;
+}
+.six.wide.column {
+  padding-top: 15px;
+  letter-spacing: 2px;
+}
+.six.wide.column a {
+  color: rgba(255, 75, 75, 0.8);
+  text-decoration: underline;
+}

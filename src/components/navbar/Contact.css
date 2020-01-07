@@ -5,12 +5,14 @@
     justify-items: center;
     margin-left: -5.9rem;
     margin-top: 10vh;
-    position: absolute;
+    position: fixed;
     font-family: 'Quicksand', sans-serif;
+    z-index: +5;
 }
 
 .link{
     font-size: 1vh;
+    text-shadow: rgb(42, 43, 43, 1px);
 }
 
 #email{
@@ -30,12 +32,12 @@ img{
 }
 
 .Github:hover{
-    color: rgb(252, 249, 249);
+    color: rgb(240, 239, 239);
     display: inline-block;
 }
 
 .LinkedIn:hover{
-    color: rgb(241, 242, 247);
+    color: rgb(240, 239, 239);
     display: inline-block;
     
 }

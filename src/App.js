@@ -4,6 +4,7 @@ import './App.css';
 import Homepage from './components/Homepage/Homepage';
 import Contact from './components/navbar/Contact';
 import Welcome from './components/Homepage/Welcome';
+import About from './components/About/About';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Contact/>
       <Welcome/>
       <Homepage/>
+      <About/>
     </div>
   );
 }
