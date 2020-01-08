@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './about.css';
 import AnimatedBg from "react-animated-bg";
+import body from './body.png';
 
 export default class About extends Component {
     render() {
@@ -12,10 +13,7 @@ export default class About extends Component {
                     delay={1}
                     timingFunction="ease-out"
                     className="animated-section"
-                >
-                    <div>
-
-                    </div>
+                > <img src={body}></img>
                 </AnimatedBg>
 
                    <div
@@ -24,25 +22,26 @@ export default class About extends Component {
           data-aos-duration="600"
           data-aos-easing="ease"
           data-aos-delay="400">
-          <h2 id="resumeCapt">Resume</h2>
+          
           <div className="iframeWrapper">
+          
             <iframe
               className="iframer"
               title="resume"
               
               src="https://drive.google.com/file/d/1dOYNGpZgeF0TxqWj6yFQiRY1ikcsPJst/view?usp=sharing"
             />
+          <h2 id="resumeCapt">Resume</h2>
           </div>
-          <div className="previewResCont">
+        </div>
+
+        <div className="previewResCont">
             Or preview it {" "}
             <a
               href="https://drive.google.com/file/d/1dOYNGpZgeF0TxqWj6yFQiRY1ikcsPJst/view?usp=sharing">
                here
             </a>
           </div>
-        </div>
-
-              
             </div>
         )
     }
