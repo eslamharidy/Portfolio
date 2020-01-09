@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import './style.css';
-import AnimatedBg from "react-animated-bg";
+
 
 export default class Homepage extends Component {
     render() {

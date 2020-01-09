@@ -1,48 +1,39 @@
 import React, { Component } from 'react';
 import './about.css';
-import AnimatedBg from "react-animated-bg";
-import body from './body.png';
+
+
 
 export default class About extends Component {
-    render() {
-        return (
-            <div className='page'>
-                  <AnimatedBg
-                    colors={["#FA0404", "#FAE804", "#16FA04", "#041EFA"]}
-                    duration={4.5}
-                    delay={1}
-                    timingFunction="ease-out"
-                    className="animated-section"
-                > <img src={body}></img>
-                </AnimatedBg>
+  render() {
+    return <div className="page">
+      <div className="one">
+      <img alt="my face" />
 
-                   <div
-          className="six wide column "
-          data-aos="fade-up-left"
-          data-aos-duration="600"
-          data-aos-easing="ease"
-          data-aos-delay="400">
-          
-          <div className="iframeWrapper">
-          
-            <iframe
-              className="iframer"
-              title="resume"
-              
-              src="https://drive.google.com/file/d/1dOYNGpZgeF0TxqWj6yFQiRY1ikcsPJst/view?usp=sharing"
-            />
-          <h2 id="resumeCapt">Resume</h2>
-          </div>
+
+        <p>Passionate and ambitious developer, never satisfied with learning new skills and taking new challenges.<br/>
+         With my background in business administration combined with working experience within multicultural teams is a true asset.<br/>
+I enjoy working within teams to share my knowledge and learn from all team members. <br/>
+I am Looking for Job as a Full-stack or Front/ back-end developer. </p>
+</div>
+   
+      <div className="iframeWrapper">
+        <h2 id="resumeCapt">Resume</h2>
+        <iframe
+          className="iframer"
+          title="resume"
+
+          src="https://drive.google.com/file/d/1dOYNGpZgeF0TxqWj6yFQiRY1ikcsPJst/view?usp=sharing"
+        />
+        <div className="previewResCont">
+          Or preview it {" "}
+          <a
+            href="https://drive.google.com/file/d/1dOYNGpZgeF0TxqWj6yFQiRY1ikcsPJst/view?usp=sharing">
+            here
+              </a>
         </div>
 
-        <div className="previewResCont">
-            Or preview it {" "}
-            <a
-              href="https://drive.google.com/file/d/1dOYNGpZgeF0TxqWj6yFQiRY1ikcsPJst/view?usp=sharing">
-               here
-            </a>
-          </div>
-            </div>
-        )
-    }
+      </div>
+
+    </div>
+  }
 }
