@@ -7,7 +7,7 @@ export default class About extends Component {
   render() {
     return <div className="page">
       <div className="one">
-      <img alt="my face" />
+      <img alt="my face" className="face" />
 
 
         <p>Passionate and ambitious developer, never satisfied with learning new skills and taking new challenges.<br/>

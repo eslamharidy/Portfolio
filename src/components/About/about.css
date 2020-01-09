@@ -30,7 +30,7 @@ margin-bottom: 1vh;
 
 }
 
-img{
+.face{
 content: url('./body.png');
 transition: 5s;
 width: 30vh;
@@ -41,7 +41,7 @@ margin-top: 25vh;
 margin-left: 10vh;
 z-index: -1;
 }
-img:hover{
+.face:hover{
   content: url('./body2.png');
   transition: 5s;
 width: 30vh;
