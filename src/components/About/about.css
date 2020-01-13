@@ -1,15 +1,18 @@
 .page{
     z-index: -4;
+    height: 100vh;
 }
+
 .resumeCapt{
   margin-top: 0vh;
   margin-right: 28vh;
 }
+
 .iframeWrapper {
   position: sticky;
   float: right;
-  margin-top: 9vh;
-  margin-right: 8vh;
+  margin-top: 10vh;
+  margin-right: 7vh;
   width: 48vh;
   height: 63vh;
   float: right;
@@ -31,29 +34,21 @@ margin-bottom: 1vh;
 }
 
 .face{
-content: url('./body.png');
+content: url('./body2.png');;
 margin-top: 20vh;
 transition: 5s;
 border-radius: 20%;
 float: left;
 opacity: 0.8;
-z-index: -1;
+z-index: -2;
 -webkit-animation: switch 3s ;
   animation: switch 3s ;
-  width: 35vh;
+  width: 24vh;
+  margin-left: 10vh;
 
 }
 
-   .face:hover {
-  content: url('./body2.png');
-  -webkit-animation: change 1s ;
-  animation: change 1s ;
-  transition-property: opacity;
-    transition-duration: 1s;
-    transition-timing-function: ease;
-    transition-delay: 1s;
-    width: 36vh;
-}
+
 
 
 .one{
@@ -62,7 +57,7 @@ z-index: -1;
 }
 p{
   width: 70%;
-  margin-top: 25vh;
+  margin-top: 10vh;
   float: right;
   z-index: 0;
   display: block;
@@ -100,38 +95,3 @@ p{
 }
 
 
-
-@-webkit-keyframes change {
- 0% {
-    opacity: 0;
-  }
-  33% {
-    opacity: 0.2;
-    
-  }
-  67% {
-    opacity: 0.4;
-    
-   }
-  100% {
-    opacity: 0.8;
-    
-   } 
-}
-@keyframes change {
-  0% {
-    opacity: 0;
-  }
-  33% {
-    opacity: 0.2;
-    
-  }
-  67% {
-    opacity: 0.4;
-    
-   }
-  100% {
-    opacity: 0.8;
-    
-   }
-}

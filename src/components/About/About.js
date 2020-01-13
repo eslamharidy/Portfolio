@@ -16,7 +16,7 @@ I enjoy working within teams to share my knowledge and learn from all team membe
 I am Looking for Job as a Full-stack or Front/ back-end developer. </p>
 </div>
    
-      <div className="iframeWrapper">
+      <div id="about" className="iframeWrapper">
         <h2 id="resumeCapt">Resume</h2>
         <iframe
           className="iframer"

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SplitText from 'react-pose-text';
 import './style.css';
-import { Link } from 'react-router-dom';
 
 
 
@@ -31,7 +30,7 @@ export default class Welcome extends Component {
                     Full-Stack Developer
       </SplitText>
       <div className=" box">
-      <Link to={'/about'}><button className="textbox-label " id='aboutme'>About me </button></Link>
+      <a href="#about"><button className="textbox-label " id='aboutme'>About me </button></a>
       <button className="textbox-label" id='mystack'>My Stack </button>
       <button className="textbox-label" id='projects'>My Projects </button>
      </div>

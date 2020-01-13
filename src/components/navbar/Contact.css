@@ -10,9 +10,12 @@
     z-index: +5;
 }
 
+
 .link{
     font-size: 1vh;
     text-shadow: rgb(42, 43, 43, 1px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) );
+    border-radius: 4px;
 }
 
 #email{
@@ -32,12 +35,12 @@ img{
 }
 
 .Github:hover{
-    color: rgb(240, 239, 239);
+    color: rgb(44, 43, 43);
     display: inline-block;
 }
 
 .LinkedIn:hover{
-    color: rgb(240, 239, 239);
+    color: rgb(21, 18, 168);
     display: inline-block;
     
 }
