@@ -10,6 +10,9 @@
     z-index: +5;
 }
 
+.wp{
+    margin-left: -3rem;
+}
 
 .link{
     font-size: 1vh;
@@ -28,6 +31,10 @@ img{
     margin-left: 1.8rem;
     size: 1.3rem;
 }
+.whatsapp:hover{
+    color: rgb(0, 168, 28);
+    display: inline-block;
+  }
 
 .email:hover{
   color: rgb(255, 75, 75);
@@ -57,6 +64,11 @@ img{
 
 .mail:hover{
     margin-left: 5.2rem;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s;
+}
+
+.wp:hover{
     transition: all 0.5s ease-in-out;
     transition: all 0.5s;
 }
@@ -106,7 +118,11 @@ img{
     margin-left: 12vh;
     transition: all 0.5s ease-in-out;
 }
-
+.wp:hover{
+    margin-left: 7.2rem;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s;
+}
 }
 
 @media (min-width: 1400px) {
@@ -154,16 +170,19 @@ img{
 }
 
 .git:hover{
-    margin-left: 12vh;
+    margin-left: 13.4vh;
     transition: all 0.5s ease-in-out;
 }
 .LinkedIn:hover{
-    margin-left: 5.7vh;
+    margin-left: 5.2vh;
     transition: all 0.5s ease-in-out;
 }
 .mail:hover{
-    margin-left: 12vh;
+    margin-left: 13vh;
     transition: all 0.5s ease-in-out;
 }
-
+.wp:hover{
+    margin-left: 7.9rem;
+    transition: all 0.5s ease-in-out;
+}
 }

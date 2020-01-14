@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import github from './images/github.png'
 import email from './images/email.png'
 import LinkedIn from './images/LinkedIn.png'
+import whatsapp from './images/whatsapp.png'
 
 
 export default class Contact extends Component {
@@ -41,6 +42,19 @@ export default class Contact extends Component {
            <img id="email"
               alt="email"
               src={email}
+              width="30"
+              height="30"
+              className="d-inline-block"
+            />
+          </Navbar.Brand>
+        </Navbar>
+        <br />
+        <Navbar bg="transperant"  variant="light" className="wp">
+          <Navbar.Brand href="https://api.whatsapp.com/send?phone=31639086126&amp;text=Hi! I am writing to you from your website">
+          <span className="whatsapp link">Whatsapp </span>
+           <img id="whatsapp"
+              alt="whatsapp"
+              src={whatsapp}
               width="30"
               height="30"
               className="d-inline-block"
