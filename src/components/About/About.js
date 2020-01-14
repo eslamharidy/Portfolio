@@ -22,12 +22,12 @@ I am Looking for Job as a Full-stack or Front/ back-end developer. </p>
           className="iframer"
           title="resume"
 
-          src="https://drive.google.com/file/d/1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA/view?usp=sharing"
+          src="https://drive.google.com/open?id=1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA"
         />
         <div className="previewResCont">
           Or preview it {" "}
           <a
-            href="https://drive.google.com/file/d/1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA/view?usp=sharing">
+            href="https://drive.google.com/open?id=1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA">
             here
               </a>
         </div>
