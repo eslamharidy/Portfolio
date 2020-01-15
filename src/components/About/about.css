@@ -4,8 +4,8 @@
 }
 #js{
   color: rgb(255, 115, 0);
-  
 }
+
 .bold{
   font-weight: bold;
 }
@@ -51,8 +51,8 @@ transition: 5s;
 float: left;
 opacity: 0.8;
 z-index: -2;
--webkit-animation: switch 3s ;
-  animation: switch 3s ;
+-webkit-animation:  3s ;
+  animation: 3s ;
   width: 24vh;
   margin-left: 10vh;
   -webkit-mask-image: -webkit-gradient(
@@ -86,8 +86,6 @@ z-index: -2;
 }
 
 
-
-
 .one{
   float: left;
   width: 70%;
@@ -102,33 +100,5 @@ p{
 
 
 
-@-webkit-keyframes switch {
-  0% {
-    opacity: 0;
-  }
-  33% {
-    opacity: 0.2;
-  }
-  67% {
-    opacity: 0.4;
-   }
-  100% {
-    opacity: 0.8;
-   }
-}
-@keyframes switch {
-  0% {
-    opacity: 0;
-  }
-  33% {
-    opacity: 0.2;
-  }
-  67% {
-    opacity: 0.4;
-   }
-  100% {
-    opacity: 0.8;
-   }
-}
 
 
