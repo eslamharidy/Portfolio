@@ -2,6 +2,16 @@
     z-index: -4;
     height: 100vh;
 }
+#js{
+  color: rgb(255, 115, 0);
+  
+}
+.bold{
+  font-weight: bold;
+}
+.contact{
+  color: rgb(255, 75, 75);
+}
 
 .resumeCapt{
   margin-top: 0vh;
