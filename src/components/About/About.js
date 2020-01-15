@@ -51,12 +51,12 @@ export default class About extends Component {
           className="iframer"
           title="resume"
           type="application/pdf"
-          src="https://drive.google.com/open?id=1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA"
+          src="https://docs.google.com/file/d/1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA/preview?usp=drivesdk"
         />
         <div className="previewResCont">
           Or preview it {" "}
           <a
-            href="https://drive.google.com/open?id=1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA">
+            href="https://docs.google.com/file/d/1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA/preview">
             here
               </a>
         </div>
