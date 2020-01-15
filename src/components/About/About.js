@@ -7,21 +7,49 @@ export default class About extends Component {
   render() {
     return <div className="page">
       <div className="one">
-      <img alt="my face" className="face" />
+        
+      
+      <img alt="my face" className="face" 
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      />
 
-
-        <p>Passionate and ambitious developer, never satisfied with learning new skills and taking new challenges.<br/>
-         With my background in business administration combined with working experience within multicultural teams is a true asset.<br/>
-I enjoy working within teams to share my knowledge and learn from all team members. <br/>
-I am Looking for Job as a Full-stack or Front/ back-end developer. </p>
+        
+        <p
+        
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        >I am Full stack developer with bachelor degree in business administration, always looking to learning new skills and taking new challenges.<br/><br/>
+        Currently building Full stack Apps with JavaScript, React, and Redux on frontend.  Using Express.js ,Node.js, docker and PostgreSQL on backend. <br/><br/>
+        Tomorrow new technologies will come, and i will always keep learning them!<br/><br/>
+        Have you got a new idea? Lets build a webapp for it, Contact me!  </p>
 </div>
    
-      <div id="about" className="iframeWrapper">
+      <div id="about" 
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+      className="iframeWrapper">
         <h2 id="resumeCapt">Resume</h2>
         <iframe
           className="iframer"
           title="resume"
-
+          type="application/pdf"
           src="https://drive.google.com/open?id=1xjL93mxXKYdECWuo2KUfT9CyX4z-qSoA"
         />
         <div className="previewResCont">
