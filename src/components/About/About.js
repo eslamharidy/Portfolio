@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './about.css';
-
+import Features from './Features'
 
 
 export default class About extends Component {
@@ -32,7 +32,7 @@ export default class About extends Component {
             Have you got a new idea? Lets build a webapp for it, <a id="contact" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=eslamissy@hotmail.com">
               Contact me! </a>
           </p></div>
-
+          <Features/>
       </div>
 
       <div
@@ -61,8 +61,6 @@ export default class About extends Component {
         </div>
 
       </div>
-
-
 
     </div>
   }
