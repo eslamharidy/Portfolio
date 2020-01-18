@@ -135,7 +135,7 @@ export default class Mystack extends Component {
             Backend
           </div>
           <div
-            className="ui grid container bottomGrids "
+            className="ui grid container bottomGrids"
             data-aos="fade-up-right"
             data-aos-duration="400"
             data-aos-easing="ease">
@@ -172,7 +172,7 @@ export default class Mystack extends Component {
           </div>
         </div>
 
-        <div className="six wide column">
+        <div className="five wide column">
           <div
             className="titleEle"
             data-aos="flip-down"
@@ -191,11 +191,19 @@ export default class Mystack extends Component {
                 <img alt="PostgreSQL" src={postgresql} />
                 <span className="tooltiptext">postgreSQL</span>
               </div>
-            </div>
-            <div className="eight wide column">
               <div className="toolCont">
                 <img alt="docker" src={docker} />
                 <span className="tooltiptext">Docker</span>
+              </div>
+            </div>
+            <div className="eight wide column">
+            <div className="toolCont">
+                <img alt="github" src={github} />
+                <span className="tooltiptext">Github</span>
+              </div>
+              <div className="toolCont">
+                <img alt="git" src={git} />
+                <span className="tooltiptext">git</span>
               </div>
             </div>
           </div>
@@ -224,12 +232,6 @@ export default class Mystack extends Component {
               <div className="toolCont">
                 <img alt="git" src={git} />
                 <span className="tooltiptext">git</span>
-              </div>
-            </div>
-            <div className="eight wide column">
-              <div className="toolCont">
-                <img alt="github" src={github} />
-                <span className="tooltiptext">Github</span>
               </div>
             </div>
           </div>
