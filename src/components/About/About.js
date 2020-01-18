@@ -6,7 +6,6 @@ import Features from './Features'
 export default class About extends Component {
   render() {
     return <div className="page" id="about">
-      <div className="one">
       <h2
         data-aos="flip-down"
         data-aos-duration="500"
@@ -14,6 +13,8 @@ export default class About extends Component {
         data-aos-delay="150">
         About me
       </h2>
+      <div className="one">
+      
         <div>
           <img alt="my face" className="face"
             data-aos="fade-right"

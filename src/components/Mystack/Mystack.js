@@ -10,7 +10,6 @@ import GraphQl from './images/GraphQl.png';
 import HTML5 from './images/HTML5..png';
 import jquery from './images/jquery.png';
 import JS from './images/JS.png';
-import mongodb from './images/mongodb.png';
 import NodeJS from './images/NodeJS.png';
 import npm from './images/npm.png';
 import postgresql from './images/postgresql.png';
@@ -26,6 +25,13 @@ export default class Mystack extends Component {
     render() {
         return (
             <div id="mystack" className="skillsEle">
+                  <h2
+        data-aos="flip-down"
+        data-aos-duration="500"
+        data-aos-easing="ease"
+        data-aos-delay="150">
+        Tech Skills
+      </h2>
                 <h2
         data-aos="flip-down"
         data-aos-duration="500"
@@ -135,14 +141,32 @@ export default class Mystack extends Component {
             data-aos-easing="ease">
             <div className="eight wide column">
               <div className="toolCont">
-                {/* <img alt="Node.js" src={NodeImg} /> */}
-                <span className="tooltiptext">node.js</span>
+                <img alt="Node.js" src={NodeJS} />
+                <span className="tooltiptext">Node.js</span>
               </div>
             </div>
             <div className="eight wide column">
               <div className="toolCont">
-                {/* <img alt="Express" src={ExpressImg} /> */}
+                <img alt="Express" src={expressjs} />
                 <span className="tooltiptext">express</span>
+              </div>
+            </div>
+            <div className="eight wide column">
+              <div className="toolCont">
+                <img alt="GraphQl" src={GraphQl} />
+                <span className="tooltiptext">GraphQl</span>
+              </div>
+            </div>
+            <div className="eight wide column">
+              <div className="toolCont">
+                <img alt="Typescript" src={Typescript} />
+                <span className="tooltiptext">Typescript</span>
+              </div>
+            </div>
+            <div className="eight wide column">
+              <div className="toolCont">
+                <img alt="python" src={python} />
+                <span className="tooltiptext">Python</span>
               </div>
             </div>
           </div>
@@ -164,15 +188,14 @@ export default class Mystack extends Component {
             data-aos-easing="ease">
             <div className="eight wide column">
               <div className="toolCont">
-                {/* <img alt="MongoDB" src={MongodbImg} /> */}
-
-                <span className="tooltiptext">MongoDB</span>
+                <img alt="PostgreSQL" src={postgresql} />
+                <span className="tooltiptext">postgreSQL</span>
               </div>
             </div>
             <div className="eight wide column">
               <div className="toolCont">
-                {/* <img alt="MySQL" src={MySQLImg} /> */}
-                <span className="tooltiptext">MySQL</span>
+                <img alt="docker" src={docker} />
+                <span className="tooltiptext">Docker</span>
               </div>
             </div>
           </div>
@@ -193,14 +216,20 @@ export default class Mystack extends Component {
             data-aos-easing="ease">
             <div className="eight wide column">
               <div className="toolCont">
-                {/* <img alt="npm" src={NpmImg} /> */}
+                <img alt="npm" src={npm} />
                 <span className="tooltiptext">npm</span>
               </div>
             </div>
             <div className="eight wide column">
               <div className="toolCont">
-                {/* <img alt="git" src={GitImg} /> */}
+                <img alt="git" src={git} />
                 <span className="tooltiptext">git</span>
+              </div>
+            </div>
+            <div className="eight wide column">
+              <div className="toolCont">
+                <img alt="github" src={github} />
+                <span className="tooltiptext">Github</span>
               </div>
             </div>
           </div>
