@@ -31,8 +31,8 @@ export default class Welcome extends Component {
       </SplitText>
       <div className=" box">
       <a href="#about"><button className="textbox-label " id='aboutme'>About me </button></a>
-      <button className="textbox-label" id='mystack'>My Stack </button>
-      <button className="textbox-label" id='projects'>My Projects </button>
+      <a href="#mystack"><button className="textbox-label" id='stack'>My Stack </button></a>
+      <a href="#myprojects"><button className="textbox-label" id='projects'>My Projects </button></a>
      </div>
 </div>
             

@@ -58,7 +58,7 @@
       width: 30vh;
      
     }
-    #mystack{
+    #stack{
       width: 30vh;
       
     }
@@ -119,7 +119,7 @@
       margin-left: 0;
       margin-right: 6vh; 
     }
-    #mystack{
+    #stack{
       width: 30vh;
       margin-right: 6vh;
     }
@@ -141,7 +141,7 @@
   -webkit-animation: turnaround 4s;
           animation: turnaround 4s;  
 }
-#mystack{
+#stack{
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-animation: turnaround 6s ;

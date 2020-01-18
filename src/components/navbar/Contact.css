@@ -186,15 +186,75 @@ img{
     transition: all 0.5s ease-in-out;
 }
 .LinkedIn:hover{
-    margin-left: 5.2vh;
+    margin-left: 0.7vh;
     transition: all 0.5s ease-in-out;
 }
 .mail:hover{
     margin-left: 13vh;
     transition: all 0.5s ease-in-out;
 }
+.wp{
+    margin-left: -2rem;
+}
 .wp:hover{
-    margin-left: 7.9rem;
+    margin-left: 4.7rem;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s;
+}
+
+}
+
+
+
+@media (max-width: 400px) {
+    .Navbar {
+        width: 10vh;
+        height: 30vh;
+        margin-top: 25vh;
+        margin-left: -14.9vh;
+        
+}
+.link{
+    font-size: 3vh;
+    display: inline-block;
+}
+
+#email{
+    margin-left: 6vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+#Linkedin{
+    margin-left: 2.2vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+img{
+    margin-left: 4.5vh;
+    margin-bottom: 10px;
+    size: 4vh;
+}
+
+.git:hover{
+    margin-left: 13.4vh;
     transition: all 0.5s ease-in-out;
 }
+.LinkedIn:hover{
+    margin-left: 0.6vh;
+    transition: all 0.5s ease-in-out;
 }
+.mail:hover{
+    margin-left: 13vh;
+    transition: all 0.5s ease-in-out;
+}
+.wp{
+    margin-left: -2.1rem;
+}
+.wp:hover{
+    margin-left: 4.5rem;
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s;
+}
+
+}
+

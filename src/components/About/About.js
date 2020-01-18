@@ -7,7 +7,13 @@ export default class About extends Component {
   render() {
     return <div className="page" id="about">
       <div className="one">
-
+      <h2
+        data-aos="flip-down"
+        data-aos-duration="500"
+        data-aos-easing="ease"
+        data-aos-delay="150">
+        About me
+      </h2>
         <div>
           <img alt="my face" className="face"
             data-aos="fade-right"
@@ -32,7 +38,7 @@ export default class About extends Component {
             Have you got a new idea? Lets build a webapp for it, <a id="contact" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=eslamissy@hotmail.com">
               Contact me! </a>
           </p></div>
-          <Features/>
+          
       </div>
 
       <div

@@ -5,6 +5,8 @@ import HomePageContainer from './components/Homepage/HomePageContainer';
 import About from './components/About/About';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Mystack from './components/Mystack/Mystack';
+import Projects from './components/Projects/Projects';
 // ..
 AOS.init(); // init the library
 AOS.init({
@@ -37,6 +39,8 @@ function App() {
       
     <HomePageContainer/>
     <About/>
+    <Mystack/>
+    <Projects/>
     
       
       </div>

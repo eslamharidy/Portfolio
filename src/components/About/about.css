@@ -2,6 +2,20 @@
     z-index: -4;
     height: 100vh;
 }
+.one h2{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 50px;
+    padding: 0 40px;
+    font-weight: bolder;
+    margin-top: 4vh;
+    margin-left: 20vh;
+}
+@media (max-width: 499px) {
+  .one h2 {
+    font-size: 20px;
+  }
+}
+
 #js{
   color: rgb(255, 115, 0);
 }
