@@ -18,6 +18,8 @@ import Reactjs from './images/Reactjs.png';
 import mui from './images/mui.png';
 import redux from './images/redux.png';
 import Typescript from './images/Typescript.png';
+import Sql from './images/Sql.png';
+import sequelize from './images/sequelize.png';
 
     
 
@@ -124,51 +126,116 @@ export default class Mystack extends Component {
         </div>
       </div>
 
-      <div className="ui stackable three column grid">
-        <div className="five wide column">
-          <div
-            className="titleEle"
-            data-aos="flip-down"
-            data-aos-duration="500"
-            data-aos-easing="ease"
-            data-aos-delay="350">
-            Backend
+
+      <div
+        className="titleEle"
+        data-aos="flip-down"
+        data-aos-duration="500"
+        data-aos-easing="ease"
+        data-aos-delay="150">
+        Backend
+      </div>
+      <div
+        className="ui stackable two column grid"
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-easing="ease"
+        data-aos-delay="500"
+        id="skillsGrid">
+        <div className="row">
+          <div className="eight wide column">
+            <div className="ui grid container">
+              <div className="eight wide column">
+                <div className="toolCont">
+                  <img alt="NodeJS" src={NodeJS} />
+                  <span className="tooltiptext">NodeJS</span>
+                </div>
+              </div>
+              <div className="eight wide column">
+                <div className="toolCont">
+                  <img alt="expressjs" src={expressjs} />
+                  <span className="tooltiptext">express.js</span>
+                </div>
+              </div>
+            </div>
           </div>
+          <div className="eight wide column">
+            <div className="ui grid container">
+              <div className="eight wide column">
+                <div className="toolCont">
+                  <img alt="Javascript" src={JS} />
+                  <span className="tooltiptext">Javascript</span>
+                </div>
+              </div>
+              <div className="eight wide column">
+                <div className="toolCont">
+                  <img alt="GraphQl" src={GraphQl} />
+                  <span className="tooltiptext">GraphQl</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="eight wide column">
+            <div className="ui grid container">
+              <div className="eight wide column">
+                <div className="toolCont">
+                  {/* <img alt="Typescript" src={Typescript} />
+                  <span className="tooltiptext">Typescript</span> */}
+                </div>
+              </div>
+              <div className="eight wide column">
+                <div className="toolCont">
+                  <img alt="python " src={python} />
+                  <span className="tooltiptext">Python</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="eight wide column">
+            <div className="ui grid container">
+              <div className="eight wide column">
+                <div className="toolCont">
+                <img alt="Typescript" src={Typescript} />
+                  <span className="tooltiptext">Typescript</span>
+                </div>
+              </div>
+              <div className="eight wide column">
+                <div className="toolCont">
+                  {/* <img alt="Bootstrap" src={Bootstrap} />
+                  <span className="tooltiptext">Bootstrap</span> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div className="ui stackable two column grid">
+        <div className="three wide column">
           <div
             className="ui grid container bottomGrids"
             data-aos="fade-up-right"
             data-aos-duration="400"
             data-aos-easing="ease">
-            <div className="eight wide column">
+            <div className="ten wide column">
               <div className="toolCont">
-                <img alt="Node.js" src={NodeJS} />
-                <span className="tooltiptext">Node.js</span>
+                <img alt="github" src={github} />
+                <span className="tooltiptext">Github</span>
               </div>
             </div>
-            <div className="eight wide column">
+            <div className="ten wide column">
               <div className="toolCont">
-                <img alt="Express" src={expressjs} />
-                <span className="tooltiptext">express</span>
+                <img alt="Docker" src={docker} />
+                <span className="tooltiptext">Docker</span>
               </div>
             </div>
-            <div className="eight wide column">
-              <div className="toolCont">
-                <img alt="GraphQl" src={GraphQl} />
-                <span className="tooltiptext">GraphQl</span>
-              </div>
-            </div>
-            <div className="eight wide column">
-              <div className="toolCont">
-                <img alt="Typescript" src={Typescript} />
-                <span className="tooltiptext">Typescript</span>
-              </div>
-            </div>
-            <div className="eight wide column">
-              <div className="toolCont">
-                <img alt="python" src={python} />
-                <span className="tooltiptext">Python</span>
-              </div>
-            </div>
+
           </div>
         </div>
 
@@ -186,25 +253,19 @@ export default class Mystack extends Component {
             data-aos="fade-up"
             data-aos-duration="400"
             data-aos-easing="ease">
-            <div className="eight wide column">
+            <div className="ten wide column">
               <div className="toolCont">
                 <img alt="PostgreSQL" src={postgresql} />
                 <span className="tooltiptext">postgreSQL</span>
               </div>
-              <div className="toolCont">
-                <img alt="docker" src={docker} />
-                <span className="tooltiptext">Docker</span>
-              </div>
+            
             </div>
-            <div className="eight wide column">
+            <div className="ten wide column">
             <div className="toolCont">
-                <img alt="github" src={github} />
-                <span className="tooltiptext">Github</span>
+                <img alt="sequelize" src={sequelize} />
+                <span className="tooltiptext">Sequelize</span>
               </div>
-              <div className="toolCont">
-                <img alt="git" src={git} />
-                <span className="tooltiptext">git</span>
-              </div>
+            
             </div>
           </div>
         </div>
@@ -222,17 +283,18 @@ export default class Mystack extends Component {
             data-aos="fade-up-left"
             data-aos-duration="400"
             data-aos-easing="ease">
-            <div className="eight wide column">
+            <div className="ten wide column">
               <div className="toolCont">
                 <img alt="npm" src={npm} />
                 <span className="tooltiptext">npm</span>
               </div>
             </div>
-            <div className="eight wide column">
+            <div className="ten wide column">
               <div className="toolCont">
                 <img alt="git" src={git} />
                 <span className="tooltiptext">git</span>
               </div>
+              
             </div>
           </div>
         </div>

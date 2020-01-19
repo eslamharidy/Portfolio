@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './about.css';
-import Features from './Features'
+// import Features from './Features'
 
 
 export default class About extends Component {
@@ -50,7 +50,6 @@ export default class About extends Component {
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="false"
-        data-aos-anchor-placement="top-center"
         className="iframeWrapper">
         <h2 id="resumeCapt">Resume</h2>
         <iframe

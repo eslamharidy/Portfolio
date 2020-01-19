@@ -7,7 +7,7 @@
     margin-bottom: 50px;
     padding: 0 40px;
     font-weight: bolder;
-    margin-top: 4vh;
+    margin-top: 5vh;
 }
 @media (max-width: 499px) {
   .one h2 {
@@ -32,9 +32,9 @@
 }
 
 .iframeWrapper {
-  position: sticky;
+  position: relative;
   float: right;
-  margin-top: 10vh;
+  margin-top: -6vh;
   margin-right: 7vh;
   width: 48vh;
   height: 63vh;
