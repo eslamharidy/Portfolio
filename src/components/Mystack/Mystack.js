@@ -18,7 +18,6 @@ import Reactjs from './images/Reactjs.png';
 import mui from './images/mui.png';
 import redux from './images/redux.png';
 import Typescript from './images/Typescript.png';
-import Sql from './images/Sql.png';
 import sequelize from './images/sequelize.png';
 
     
@@ -225,8 +224,8 @@ export default class Mystack extends Component {
             data-aos-easing="ease">
             <div className="ten wide column">
               <div className="toolCont">
-                <img alt="github" src={github} />
-                <span className="tooltiptext">Github</span>
+                <img alt="npm" src={npm} />
+                <span className="tooltiptext">npm</span>
               </div>
             </div>
             <div className="ten wide column">
@@ -285,8 +284,8 @@ export default class Mystack extends Component {
             data-aos-easing="ease">
             <div className="ten wide column">
               <div className="toolCont">
-                <img alt="npm" src={npm} />
-                <span className="tooltiptext">npm</span>
+                <img alt="Github" src={github} />
+                <span className="tooltiptext">Github</span>
               </div>
             </div>
             <div className="ten wide column">

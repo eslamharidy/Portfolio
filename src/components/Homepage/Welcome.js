@@ -32,7 +32,7 @@ export default class Welcome extends Component {
       <div className=" box">
       <a href="#about"><button className="textbox-label " id='aboutme'>About me </button></a>
       <a href="#mystack"><button className="textbox-label" id='stack'>My Stack </button></a>
-      <a href="#myprojects"><button className="textbox-label" id='projects'>My Projects </button></a>
+      <a href="#projectsEle"><button className="textbox-label" id='projects'>My Projects </button></a>
      </div>
 </div>
             
