@@ -38,7 +38,7 @@ In this project I try to use:
 - Good commit messages
 - Pull requests with summaries
 
-If you have feedback: **[please drop me a line!](https://www.linkedin.com/in/eslam-haridy-0b14316a/)** 
+If you have feedback: **[please drop me a message!](https://www.linkedin.com/in/eslam-haridy-0b14316a/)** 
 
 
 ## Create React App
