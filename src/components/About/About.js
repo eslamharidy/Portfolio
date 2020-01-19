@@ -33,10 +33,11 @@ export default class About extends Component {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-          >I am Full stack developer with bachelor degree in business administration, always looking to learning new skills and taking new challenges.<br /><br />
+          >I am Full stack developer with bachelor degree in business administration, with an eye open to learn latest tech skills and taking new challenges.<br /><br />
             Currently building Full stack Apps with <strong className="bold" id="js">JavaScript</strong>, React, and Redux on frontend.  Using Express.js ,Node.js, docker and PostgreSQL on backend. <br /><br />
-            Tomorrow new technologies will come, and i will always keep learning them!<br /><br />
-            Have you got a new idea? Lets build a webapp for it, <a id="contact" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=eslamissy@hotmail.com">
+            
+            <br /><br />
+            Are you looking for developer for new or current project?  <a id="contact" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=eslamissy@hotmail.com">
               Contact me! </a>
           </p></div>
           
