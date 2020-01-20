@@ -169,7 +169,7 @@ export default class Projects extends React.Component {
           <div />
           <div />
           <div />
-          <h1>More projects in development will be added soon!</h1>
+          <h1>More projects on my  <a id="more" href="https://github.com/eslamharidy">Github! </a></h1>
         </div>
         <div className="footerContainer">
         © 2020 Copyright: <a href="https://eslam-haridy.netlify.com/">Eslam Haridy</a>
