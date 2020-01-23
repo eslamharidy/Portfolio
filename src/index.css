@@ -6,7 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth; 
+  }
 
 code {
   font-family: 'Quicksand', sans-serif;

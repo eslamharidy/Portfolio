@@ -7,7 +7,7 @@
     padding: 0%;
 }
 
-@media (max-width: 850px) {
+@media only screen and (max-width: 850px) {
     .Particles{
         height: 100vh;
     }
@@ -67,7 +67,7 @@
     }
 }
 
-@media (min-width: 850px) {
+@media only screen and (min-width: 850px) {
     .Particles{
         height: 100vh;
     }
@@ -253,3 +253,4 @@ button:hover{
     color: #e95555;
   }
 }
+
