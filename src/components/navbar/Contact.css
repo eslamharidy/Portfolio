@@ -132,7 +132,7 @@ img{
 
 @media (min-width: 1400px) {
     .LinkedIn:hover{
-        margin-left: 4vh;
+        margin-left: 3.1vw;
         transition: all 0.5s ease-in-out;
     }
     .git:hover{
@@ -147,7 +147,7 @@ img{
         margin-left: -3.4rem;
     }
     .wp:hover{
-        margin-left: 6.5rem;
+        margin-left: 6.9vw;
         transition: all 0.5s ease-in-out;
         transition: all 0.5s;
     }
