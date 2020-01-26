@@ -37,7 +37,8 @@ export default class Mystack extends Component {
         data-aos="flip-down"
         data-aos-duration="500"
         data-aos-easing="ease"
-        data-aos-delay="150">
+        data-aos-delay="150"
+        className="hover">
         Hover over the particular skill for details
       </h2>
       <div
@@ -48,6 +49,36 @@ export default class Mystack extends Component {
         data-aos-delay="150">
         Frontend
       </div>
+      <ul className="mobile">
+         <li
+         data-aos="flip-down"
+         data-aos-duration="500"
+         data-aos-easing="ease"
+         data-aos-delay="150">
+             <img alt="HTML5" src={HTML5} />
+             <img alt="CSS3" src={Css3} />
+             <img id= 'js' alt="Javascript" src={JS} />
+             </li> 
+             <li
+         data-aos="flip-down"
+         data-aos-duration="500"
+         data-aos-easing="ease"
+         data-aos-delay="150">
+             <img alt="React" src={Reactjs} />
+             <img alt="jQuery" src={jquery} />
+             <img alt="Material UI" src={mui} />
+             </li> 
+             <li
+         data-aos="flip-down"
+         data-aos-duration="500"
+         data-aos-easing="ease"
+         data-aos-delay="150">
+             <img alt="Redux" src={redux} />
+             <img alt="Bootstrap" src={Bootstrap} />
+            
+             </li> 
+      </ul>
+
       <div
         className="ui stackable two column grid"
         data-aos="fade-up"
@@ -134,6 +165,27 @@ export default class Mystack extends Component {
         data-aos-delay="150">
         Backend
       </div>
+      <ul className="mobile">
+         <li
+         data-aos="flip-down"
+         data-aos-duration="500"
+         data-aos-easing="ease"
+         data-aos-delay="150">
+             <img alt="NodeJS" src={NodeJS} />
+             <img alt="expressjs" src={expressjs} />
+             <img id= 'js' alt="Javascript" src={JS} />
+             </li> 
+             <li
+         data-aos="flip-down"
+         data-aos-duration="500"
+         data-aos-easing="ease"
+         data-aos-delay="150">
+            <img id="gql"alt="GraphQl" src={GraphQl} />
+            <img alt="python " src={python} />
+            <img alt="Typescript" src={Typescript} />
+             </li> 
+            
+      </ul>
       <div
         className="ui stackable two column grid"
         data-aos="fade-up"
@@ -247,6 +299,17 @@ export default class Mystack extends Component {
             data-aos-delay="350">
             Database
           </div>
+          <ul className="mobile">
+         <li
+         data-aos="flip-down"
+         data-aos-duration="500"
+         data-aos-easing="ease"
+         data-aos-delay="150">
+            <img id="docker" alt="Docker" src={docker} />
+            <img alt="PostgreSQL" src={postgresql} />
+            <img alt="sequelize" src={sequelize} />
+             </li> 
+      </ul>
           <div
             className="ui grid container bottomGrids "
             data-aos="fade-up"
@@ -277,6 +340,17 @@ export default class Mystack extends Component {
             data-aos-delay="350">
             Build
           </div>
+          <ul className="mobile">
+         <li
+         data-aos="flip-down"
+         data-aos-duration="500"
+         data-aos-easing="ease"
+         data-aos-delay="150">
+            <img alt="Github" src={github} />
+            <img alt="npm" src={npm} />
+            <img alt="git" src={git} />
+             </li> 
+      </ul>
           <div
             className="ui grid container bottomGrids"
             data-aos="fade-up-left"

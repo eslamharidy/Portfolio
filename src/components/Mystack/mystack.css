@@ -90,8 +90,49 @@
     border-radius: 4px;
   }
   
-  @media (max-width: 499px) {
+  .mobile{
+    display: none;
+  }
+  @media (max-width: 769px) {
     .skillsEle h2 {
       font-size: 20px;
     }
+    .column{
+        display: none;
+    }
+    .toolCont{
+       display: none;
+    }
+    .hover{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        background-color: transparent;
+        
+      }
+    .mobile li{
+        list-style: none;
+        background-color: transparent;
+        margin-top: 3vh;
+    }
+    .mobile img{
+        width: 17vw;
+        height: 12vh;
+        margin: 1vh 1.5vw;
+        padding: 0vh;
+    }  
+    #js{
+        width: 22vw;
+        height: 12vh;
+    }
+    #gql{
+        width: 22vw;
+        height: 12vh;
+    }
+    #docker{
+        width: 22vw;
+        height: 12vh;
+    }
+
   }
