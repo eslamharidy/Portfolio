@@ -12,7 +12,8 @@
     -webkit-transition: 0.1s all linear;
     -o-transition: 0.1s all linear;
     transition: 0.1s all linear;
-    margin-top: 25vh;
+    margin-top: 2vh;
+    margin-bottom: 30vh;
   }
   .skillsEle h2 {
     font-family: 'Quicksand', sans-serif;
