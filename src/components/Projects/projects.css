@@ -17,6 +17,7 @@
     margin-bottom: 50px;
     padding: 0 40px;
     font-weight: bolder;
+    
   }
   /* -------------------------------------------------------------------------- */
   /* More Projects in Development */
@@ -321,4 +322,14 @@
   }
 .footerContainer a:hover {
     text-decoration: underline;
+  }
+
+
+  @media (min-width: 1250px){
+      
+  #projectsEle {
+    margin-top: 50vh;
+  }
+
+
   }

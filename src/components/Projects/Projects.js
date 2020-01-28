@@ -108,12 +108,12 @@ export default class Projects extends React.Component {
                 <span>REACT</span>
                 <span>REDUX</span>
               </div>
-              <a
+              {/* <a
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://the-dice-game.herokuapp.com/login">
                 <button className="projButton">Demo</button>
-              </a>
+              </a> */}
               <a
                 rel="noopener noreferrer"
                 target="_blank"
