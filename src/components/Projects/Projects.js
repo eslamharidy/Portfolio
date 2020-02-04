@@ -66,12 +66,12 @@ export default class Projects extends React.Component {
                 <span>Express</span>
                 <span>Node</span>
               </div>
-              {/* <a
+              <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://peaceful-thompson-239251.netl…">
+                href="https://imptrainer.com/">
                 <button className="projButton">Demo</button>
-              </a> */}
+              </a>
               <a
                 rel="noopener noreferrer"
                 target="_blank"
