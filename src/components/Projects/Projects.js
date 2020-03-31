@@ -1,5 +1,6 @@
 import React from 'react';
 import './projects.css';
+import gangmakers from './gangmakers.png';
 
 export default class Projects extends React.Component {
   componentDidMount = () => {
@@ -24,7 +25,7 @@ export default class Projects extends React.Component {
       rect.top >= 0 &&
       rect.left >= 0 &&
       rect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight) &&
+      (window.innerHeight || document.documentElement.clientHeight) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   };
@@ -32,12 +33,12 @@ export default class Projects extends React.Component {
   render() {
     return (
       <div id="projectsEle">
-       <h2
-        data-aos="flip-down"
-        data-aos-duration="500"
-        data-aos-easing="ease"
-        data-aos-delay="150">
-        Projects
+        <h2
+          data-aos="flip-down"
+          data-aos-duration="500"
+          data-aos-easing="ease"
+          data-aos-delay="150">
+          Projects
         </h2>
 
         <ul
@@ -45,6 +46,34 @@ export default class Projects extends React.Component {
           data-aos-duration="500"
           data-aos-easing="ease"
           data-aos-delay="250">
+          <li>
+            <div className="boxEle">
+              <h3>Gangmakers</h3>
+              <p>
+                A Full-stack fitness application that track and provide workout with diet plan.
+              </p>
+              <div>
+                <img style={{
+                  height: "150px"
+                }}
+                  alt="Gangmakers"
+                  className="ui image"
+                  src={gangmakers}
+                />
+              </div>
+              <div className="toolCont">
+                <span>HTML | CSS | JS | VueJS</span>
+                <span>MySQL</span>
+                <span>PHP</span>
+              </div>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://mijn.gangmakerssociety.nl/">
+                <button className="projButton">Live</button>
+              </a>
+            </div>
+          </li>
           <li>
             <div className="boxEle">
               <h3>IMP trainer</h3>
@@ -70,13 +99,13 @@ export default class Projects extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://imptrainer.com/">
-                <button className="projButton">Demo</button>
+                <button className="projButton">Live</button>
               </a>
               <a
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://github.com/eslamharidy/Fitness-App">
-                <button className="projButton">Source</button>
+                {/* <button className="projButton">Source</button> */}
               </a>
             </div>
           </li>
@@ -84,7 +113,7 @@ export default class Projects extends React.Component {
           <li>
             <div className="boxEle">
               <h3>Dice game</h3>
-              <p className="backendImp"> 
+              <p className="backendImp">
                 A multiplayer online game built with WebSocket.
               </p>
               {/* <div
@@ -95,7 +124,7 @@ export default class Projects extends React.Component {
               </div> */}
               <div>
                 <img
-                style={{
+                  style={{
                     height: "150px"
                   }}
                   alt="dice-game"
@@ -122,7 +151,7 @@ export default class Projects extends React.Component {
               </a>
             </div>
           </li>
-
+          {/* 
           <li>
             <div className="boxEle">
               <h3>Web shop</h3>
@@ -156,7 +185,7 @@ export default class Projects extends React.Component {
                 <button className="projButton">Source</button>
               </a>
             </div>
-          </li>
+          </li> */}
 
         </ul>
         <div
