@@ -47,7 +47,7 @@ margin-bottom: 1vh;
 }
 
 .face{
-content: url('./body2.png');
+content: url('./body.png');
 margin-top: 20vh;
 transition: 5s;
 float: left;
@@ -193,7 +193,7 @@ margin-bottom: 1vh;
 }
 
 .face{
-content: url('./body2.png');
+content: url('./body.png');
 margin-top: 20vh;
 transition: 5s;
 float: left;
