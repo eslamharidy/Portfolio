@@ -55,7 +55,8 @@ export default class Projects extends React.Component {
               </p>
               <div>
                 <img style={{
-                  height: "150px"
+                  height: "150px",
+                  marginLeft: "0.5%"
                 }}
                   alt="Gangmakers"
                   className="ui image"
