@@ -50,7 +50,8 @@ export default class Projects extends React.Component {
             <div className="boxEle">
               <h3>Gangmakers</h3>
               <p>
-                A Full-stack fitness application that track and provide workout with diet plan.
+              Gangmakers is a social media app used to help people gather
+              and know new people with offers and discounts from cafes, pubs and restaurants.
               </p>
               <div>
                 <img style={{
@@ -110,7 +111,7 @@ export default class Projects extends React.Component {
             </div>
           </li>
 
-          <li>
+          {/* <li>
             <div className="boxEle">
               <h3>Dice game</h3>
               <p className="backendImp">
@@ -121,7 +122,7 @@ export default class Projects extends React.Component {
                   color: 'rgba(233, 75, 75, 1)'
                 }}>
                 <em>Backend in development</em>
-              </div> */}
+              </div> 
               <div>
                 <img
                   style={{
@@ -137,12 +138,12 @@ export default class Projects extends React.Component {
                 <span>REACT</span>
                 <span>REDUX</span>
               </div>
-              {/* <a
+              <a
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://the-dice-game.herokuapp.com/login">
                 <button className="projButton">Demo</button>
-              </a> */}
+              </a> 
               <a
                 rel="noopener noreferrer"
                 target="_blank"
@@ -150,8 +151,8 @@ export default class Projects extends React.Component {
                 <button className="projButton">Source</button>
               </a>
             </div>
-          </li>
-          {/* 
+          </li>  */}
+          
           <li>
             <div className="boxEle">
               <h3>Web shop</h3>
@@ -185,7 +186,7 @@ export default class Projects extends React.Component {
                 <button className="projButton">Source</button>
               </a>
             </div>
-          </li> */}
+          </li>
 
         </ul>
         <div
