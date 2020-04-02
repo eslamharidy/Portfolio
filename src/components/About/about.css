@@ -31,6 +31,7 @@
   height: 63vh;
   z-index: +1;
   border-radius: 10px;
+  margin: 2%;
 }
 
 .iframeWrapper .iframer {
