@@ -46,7 +46,7 @@ export default class Projects extends React.Component {
           data-aos-duration="500"
           data-aos-easing="ease"
           data-aos-delay="250">
-          <li>
+  {/*<li>
             <div className="boxEle">
               <h3>Gangmakers</h3>
               <p>
@@ -75,7 +75,8 @@ export default class Projects extends React.Component {
                 <button className="projButton">Live</button>
               </a>
             </div>
-          </li>
+          </li> */}
+          
           <li>
             <div className="boxEle">
               <h3>IMP trainer</h3>
