@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import gangmakers from './gangmakers.png';
+
 
 export default class Projects extends React.Component {
   componentDidMount = () => {
