@@ -19,6 +19,7 @@ import mui from './images/mui.png';
 import redux from './images/redux.png';
 import Typescript from './images/Typescript.png';
 import sequelize from './images/sequelize.png';
+import vue from './images/Vue.png';
 
     
 
@@ -74,7 +75,7 @@ export default class Mystack extends Component {
          data-aos-easing="ease"
          data-aos-delay="150">
              <img alt="Redux" src={redux} />
-             <img alt="Bootstrap" src={Bootstrap} />
+             <img alt="Vue.js" src={vue} />
             
              </li> 
       </ul>
@@ -147,8 +148,8 @@ export default class Mystack extends Component {
               </div>
               <div className="eight wide column">
                 <div className="toolCont">
-                  <img alt="Bootstrap" src={Bootstrap} />
-                  <span className="tooltiptext">Bootstrap</span>
+                  <img alt="Vue.js" src={vue} />
+                  <span className="tooltiptext">Vue.js</span>
                 </div>
               </div>
             </div>
