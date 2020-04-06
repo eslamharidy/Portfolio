@@ -46,36 +46,8 @@ export default class Projects extends React.Component {
           data-aos-duration="500"
           data-aos-easing="ease"
           data-aos-delay="250">
-          <li>
-            <div className="boxEle">
-              <h3>Gangmakers</h3>
-              <p>
-              Gangmakers is a social media app used to help people gather
-              and know new people with offers and discounts from cafes, pubs and restaurants.
-              </p>
-              <div>
-                <img style={{
-                  height: "150px",
-                  marginLeft: "0.5%"
-                }}
-                  alt="Gangmakers"
-                  className="ui image"
-                  src={gangmakers}
-                />
-              </div>
-              <div className="toolCont">
-                <span>HTML | CSS | JS | VueJS</span>
-                <span>MySQL</span>
-                <span>PHP</span>
-              </div>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://mijn.gangmakerssociety.nl/">
-                <button className="projButton">Live</button>
-              </a>
-            </div>
-          </li>
+ 
+          
           <li>
             <div className="boxEle">
               <h3>IMP trainer</h3>
