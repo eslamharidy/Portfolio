@@ -83,49 +83,6 @@ export default class Projects extends React.Component {
               </a>
             </div>
           </li>
-
-          {/* <li>
-            <div className="boxEle">
-              <h3>Dice game</h3>
-              <p className="backendImp">
-                A multiplayer online game built with WebSocket.
-              </p>
-              {/* <div
-                style={{
-                  color: 'rgba(233, 75, 75, 1)'
-                }}>
-                <em>Backend in development</em>
-              </div> 
-              <div>
-                <img
-                  style={{
-                    height: "150px"
-                  }}
-                  alt="dice-game"
-                  className="ui image"
-                  src="https://media.giphy.com/media/lnJV0ujYpmK0Q2hFDT/200w_d.gif"
-                />
-              </div>
-              <div className="toolCont">
-                <span>HTML | CSS | JS | Bootstrap</span>
-                <span>REACT</span>
-                <span>REDUX</span>
-              </div>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://the-dice-game.herokuapp.com/login">
-                <button className="projButton">Demo</button>
-              </a> 
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/eslamharidy/dice-game-client">
-                <button className="projButton">Source</button>
-              </a>
-            </div>
-          </li>  */}
-          
           <li>
             <div className="boxEle">
               <h3>Web shop</h3>
