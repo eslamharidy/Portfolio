@@ -79,7 +79,7 @@ export default class Projects extends React.Component {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://github.com/eslamharidy/Fitness-App">
-                {/* <button className="projButton">Source</button> */}
+                
               </a>
             </div>
           </li>
