@@ -27,7 +27,7 @@ export default class Welcome extends Component {
       </SplitText><br>
                 </br>
                 <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-                    Full-Stack Developer
+                    Front-End Developer
       </SplitText>
       <div className=" box">
       <a href="#about"><button className="textbox-label " id='aboutme'>About me </button></a>
