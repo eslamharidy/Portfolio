@@ -33,7 +33,7 @@ export default class About extends Component {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-          >I am Full stack developer with bachelor degree in business administration, with an eye open to learn latest tech skills and taking new challenges.<br /><br />
+          >I am Front-End developer with bachelor degree in business administration, with an eye open to learn latest tech skills and taking new challenges.<br /><br />
             Currently building Full stack Apps with <strong className="bold" id="js">JavaScript</strong>, React, and Redux on frontend.  Using Express.js ,Node.js, docker and PostgreSQL on backend. <br /><br />
             
             <br /><br />
